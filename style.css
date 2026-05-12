@@ -499,7 +499,10 @@ h3 { font-size: 1.5rem; }
 .cta-inner p { color: var(--text-muted); margin-bottom: 36px; }
 
 .contact-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 22px;
+  justify-content: center;
 }
 .contact-card {
   padding: 32px 24px;
